@@ -1,0 +1,76 @@
+/* Header */
+.Header {
+  max-width: 100%;
+  max-height: 4rem;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.logo_text {
+  color: var(--text-color-text);
+  font-size: 1.09375rem;
+  font-weight: 500;
+  margin-left: 0.78125rem;
+}
+
+.header-container {
+  display: flex;
+  max-width: var(--container-with);
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.header_text_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header_text_menu > li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.margin_menu_text_items {
+  margin-right: 1.4375rem;
+}
+
+.header_text_menu > li > a {
+  color: var(--text-color-title);
+}
+
+.start {
+  display: flex;
+  align-items: center;
+}
+
+.start > .btn_start {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: var(--text-color-links);
+  color: var(--header-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.start > .btn_start:hover {
+  background-color: var(--btn-hover-color);
+}
+
+/* Burger */
+.burger-btn {
+  display: none;
+}

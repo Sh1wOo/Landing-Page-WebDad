@@ -1,0 +1,12 @@
+/* Variables */
+:root {
+  --text-color-title: #17191c;
+  --text-color-text: #2f353d;
+  --text-color-links: #1874ff;
+  --btn-hover-color: #519dff;
+  --back-ground-some-blocks: #74b6ff26;
+  --back-ground-color: #f4f5f7;
+  --header-color: #fff;
+  --container-with: 64rem;
+  --container-mobile-with: 100%;
+}
